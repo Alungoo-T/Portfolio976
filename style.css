@@ -1,0 +1,136 @@
+.container {
+    position: relative;
+    max-width: 376px;
+    margin: auto;
+    height: 2280px;
+    background-color: rgba(12, 21, 29, 1);
+    border-radius: 30px;
+    padding: 20px 0px 40px 0px;
+    
+}
+
+.container-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    font-family: sans-serif;
+   
+}
+.header2{
+    margin: 20px;
+}
+.header2 h2 {
+    font-family: sans-serif;
+    font-size: 32px;
+    color: rgba(241, 242, 244, 1);
+    margin:0;
+
+}
+
+.header2 p {
+    color: rgba(163, 171, 178, 1);
+    font-size: 14px;
+    margin-top:5px;
+
+
+}
+
+.icons {
+    background-color: antiquewhite;
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgba(163, 171, 178, 1);
+    font-size: 14px;
+    margin: 10px;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 14px;
+    margin: 20px;
+
+
+}
+
+.contact>a:first-child {
+    padding: 18px 35px 18px 35px;
+    background-color: rgba(255, 224, 113, 1);
+    font-size: 12px;
+    color: rgba(61, 61, 61, 1);
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact>a:last-child {
+    padding: 18px 36px 18px 36px;
+    box-sizing: border-box;
+    /* border: 1px solid rgba(62, 100, 170, 1); */
+    font-size: 12px;
+    color:rgba(163, 171, 178, 1);
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: rgba(23, 31, 38, 1);
+    font-weight: 600;
+}
+
+.portfolio-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 14px;
+    background-color: rgba(23, 31, 38, 1);
+    padding: 10px 20px 10px 20px; /* ask */
+    border-radius: 10px;
+
+    margin: 20px;
+
+
+}
+
+.portfolio-skills>a:first-child {
+    background-color: rgba(12, 21, 29, 1);
+    border-radius: 10px;
+  padding: 18px 52px;
+    text-decoration: none;
+    color:rgba(163, 171, 178, 1);
+    font-weight: 600;
+    font-size: 12px;
+    
+
+
+}
+
+.portfolio-skills>a:last-child {
+    padding: 20px 45px 20px 45px;
+    color:rgba(163, 171, 178, 1);
+
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+
+
+}
+
+.images>img {
+    margin: 10px;
+}
+
+.footer {
+    color: rgba(163, 171, 178, 1);
+   
+    font-size: 14px;
+    font-weight: 500;
+margin-top:18px ;
+}
