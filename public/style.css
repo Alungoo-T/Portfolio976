@@ -2,7 +2,7 @@
     position: relative;
     max-width: 376px;
     margin: auto;
-    height: 2280px;
+    height: 2300px;
     background-color: rgba(12, 21, 29, 1);
     border-radius: 30px;
     padding: 20px 0px 40px 0px;
@@ -133,4 +133,8 @@
     font-size: 14px;
     font-weight: 500;
 margin-top:18px ;
+}
+
+.background {
+
 }

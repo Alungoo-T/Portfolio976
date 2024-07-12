@@ -19,17 +19,38 @@
 // console.log(F);
 // console.log(C);
 
-let x=15;
-let y=10;
-let a=x+y;
-let b=x-y;
-console.log(a);
-console.log(b);
+// let x=15;
+// let y=10;
+// let a=x+y;
+// let b=x-y;
+// console.log(a);
+// console.log(b);
 
-let c=x*y;
-let d=x/y;
-let e=x%y;
+// let c=x*y;
+// let d=x/y;
+// let e=x%y;
 
 
-let f=x*2.54;
-let g=x/2.54;
+// let f=x*2.54;
+// let g=x/2.54;
+
+// let a = 13;
+// let b = 19;
+// let c=(a==b || b==a)
+// console.log(c);
+
+// let a = 4, b = 1;
+
+// if (a <= b) {
+//     console.log("a smaller than b");
+// } else  {
+//     console.log("b smaller than a");
+// }
+
+let a = 10, b = 2, c = 2;
+if (a + b > c && a + c > b && c + b > a) {
+    console.log("its a triangle");
+} else {
+    console.log("its a not triangle");
+}
+
