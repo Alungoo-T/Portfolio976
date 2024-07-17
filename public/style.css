@@ -1,17 +1,13 @@
 .background {
     position: relative;
     max-width: 1000px;
+   }
 
-
-    background-color: rgba(12, 21, 29, 1);
-
-}
-
-.container {
+/* .container {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .container-text {
 
@@ -27,11 +23,19 @@
 
 }
 
-.set-pic {
+.set-pic{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+    margin:30px;
+    background-color :transparent;
+    
+}
+.set-pic button{
+margin-bottom: 30px;
+background-color:transparent;
+border-radius: 20px;
+
 }
 
 .header {
@@ -58,9 +62,6 @@
     align-items: center;
     width: auto;
     font-size: 20px;
-
-
-
 }
 
 .header-name h3 {
@@ -77,7 +78,7 @@
 
 .header-name img {
 
-    height: 20px;
+    height: 23px;
 
 
 }
@@ -86,11 +87,11 @@
 .experience {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:center;
     color: rgba(163, 171, 178, 1);
     font-size: 14px;
     margin: 10px;
-
+    gap:45px;
 }
 
 .experience p {
@@ -102,14 +103,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 35px;
     margin: 20px;
 
 
 }
 
 .contact>a:first-child {
-    padding: 16px 45px;
+    padding: 14px 40px;
     background-color: rgba(255, 224, 113, 1);
     font-size: 14px;
     color: rgba(61, 61, 61, 1);
@@ -120,7 +121,7 @@
 }
 
 .contact>a:last-child {
-    padding: 18px 45px 18px 45px;
+    padding: 14px 40px ;
     box-sizing: border-box;
     /* border: 1px solid rgba(62, 100, 170, 1); */
     font-size: 14px;
@@ -135,42 +136,33 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* gap: 14px; */
+    gap: 35px;
     background-color: rgba(23, 31, 38, 1);
-    /* padding: 10px 40px; */
+    padding: 4px 140px;
     border-radius: 10px;
-    /* padding: 18px 80px; */
-
-
-
-
-
-
+    
+    width: 210px;
+    margin: auto;
+   padding-left: 10px;
 }
 
 .portfolio-skills>a:first-child {
     background-color: rgba(12, 21, 29, 1);
     border-radius: 10px;
-    padding: 20px 40px;
+    padding: 15px 55px;
     text-decoration: none;
     color: rgba(163, 171, 178, 1);
     font-weight: 600;
     font-size: 14px;
-
-
-
-
+   
 }
 
 .portfolio-skills>a:last-child {
-    padding: 20px 60px 20px 60px;
+    padding: 20px 45px;
     color: rgba(163, 171, 178, 1);
-
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-
-
 }
 
 .images>img {
@@ -219,7 +211,7 @@ align-items: center; */
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 10px;
     }
 
     .footer {
@@ -234,3 +226,72 @@ align-items: center; */
         padding-top: 50px;
     }
 }
+
+@media only screen and (min-width: 484px) {
+    body {
+
+        background-color: rgba(23, 31, 38, 1);
+
+    }
+
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+    h3,
+    p,
+    a,
+    img,
+    div {
+        color:rgba(163, 171, 178, 1) !important;
+    }
+    .contact>a:first-child{
+        color: rgba(61, 61, 61, 1) !important;
+    }
+.contact>a:last-child{
+    
+background-color:rgba(23, 31, 38, 1)
+}
+.portfolio-skills{
+    background-color: rgba(23, 31, 38, 1)!important;
+}
+    div {
+        background: rgba(12, 21, 29, 1) !important;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+
+    h3,
+    p,
+    a href,
+    img,
+    div 
+    .header-name img {
+        color:rgba(87, 87, 87, 1) !important;
+    
+    }
+    .set-pic button{
+        background-color: rgba(255, 255, 255, 1) !important;
+    }
+    .contact>a:last-child{
+        background-color: rgba(255, 255, 255, 1) !important;
+        color:rgba(25, 25, 27, 1) !important;
+    }
+    .portfolio-skills>a:first-child{
+        background-color: rgba(215, 215, 215, 1) !important;
+        color:rgba(25, 25, 27, 1) !important;
+    }
+    .portfolio-skills{
+        background-color: rgba(255, 255, 255, 1) !important;
+
+    }
+
+    .portfolio-skills>a:last-child{
+        color: rgba(25, 25, 27, 1) !important;
+    }
+    div {
+        background-color: rgba(233, 235, 236, 1) !important;
+    }
+} 
